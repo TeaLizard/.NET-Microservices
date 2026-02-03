@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "itFvThlLXNk=",
+  "dgSpecHash": "YBrX2bt7WII=",
   "success": false,
-  "projectFilePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+  "projectFilePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owen\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
     "C:\\Users\\Owen\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.2\\microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
@@ -16,8 +16,8 @@
       "code": "NU1202",
       "level": "Error",
       "message": "Package Microsoft.EntityFrameworkCore 10.0.2 is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Package Microsoft.EntityFrameworkCore 10.0.2 supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
-      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
+      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net9.0"
@@ -27,8 +27,8 @@
       "code": "NU1202",
       "level": "Error",
       "message": "Package Microsoft.EntityFrameworkCore.Design 10.0.2 is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Package Microsoft.EntityFrameworkCore.Design 10.0.2 supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
-      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
+      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Design",
       "targetGraphs": [
         "net9.0"
@@ -38,8 +38,8 @@
       "code": "NU1202",
       "level": "Error",
       "message": "Package Microsoft.EntityFrameworkCore.Sqlite 10.0.2 is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Package Microsoft.EntityFrameworkCore.Sqlite 10.0.2 supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
-      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
+      "filePath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
       "targetGraphs": [
         "net9.0"

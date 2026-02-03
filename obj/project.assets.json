@@ -171,11 +171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectUniqueName": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
       "projectName": "Assignment 1",
-      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\Assignment 1.csproj",
       "packagesPath": "C:\\Users\\Owen\\.nuget\\packages\\",
-      "outputPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\obj\\",
+      "outputPath": "C:\\School\\Level 6\\Distributed Applications Development\\Assignments\\Assignment 1\\Assignment 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
