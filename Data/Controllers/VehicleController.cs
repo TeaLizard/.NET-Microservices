@@ -18,7 +18,7 @@ namespace Assignment1.Controllers
         public IActionResult GetAll()
         {
             var vehicles = _context.Vehicles.ToList();
-            if (vehicles == null)
+            if (vehicles.Count == 0)
             {
                 return NoContent();
             }
@@ -44,6 +44,8 @@ namespace Assignment1.Controllers
                 return BadRequest();
             }
             _context.Vehicles.Add(vehicle);
+            _context.SaveChanges();
+            _context.Dispose();
             return Created();
         }
 
@@ -63,6 +65,8 @@ namespace Assignment1.Controllers
             oldVehicle.NumberOfWheels = newVehicle.NumberOfWheels;
             oldVehicle.NumberOfDoors = newVehicle.NumberOfDoors;
             _context.Update(oldVehicle);
+            _context.SaveChanges();
+            _context.Dispose();
             return Ok(oldVehicle);
         }
 
@@ -75,6 +79,8 @@ namespace Assignment1.Controllers
                 return NotFound();
             }
             _context.Vehicles.Remove(vehicle);
+            _context.SaveChanges();
+            _context.Dispose();
             return NoContent();
         }
     }
