@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Assignment_1.Entities;
+using Assignment1.Entities;
 
 namespace Assignment1.Data
 {
@@ -9,13 +9,13 @@ namespace Assignment1.Data
 
         public DbSet<Vehicle> Vehicles { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
+        // protected override void OnModelCreating(ModelBuilder builder)
+        // {
+        //     base.OnModelCreating(builder);
 
-            builder.Entity<Vehicle>().HasData(
-                new Vehicle { }
-            );
-        }
+        //     builder.Entity<Vehicle>().HasData(
+        //         new Vehicle { }
+        //     );
+        // }
     }
 }
