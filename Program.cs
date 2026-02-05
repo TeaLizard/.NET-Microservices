@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Assignment1.Data;
+using Assignment1.Controllers;
 
 namespace Assignment1
 {
@@ -14,6 +15,8 @@ namespace Assignment1
 
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=app.db"));
 
+            builder.Services.AddControllers();
+
             builder.Services.AddOpenApi();
 
             var app = builder.Build();
@@ -22,6 +25,8 @@ namespace Assignment1
             {
                 app.MapOpenApi();
             }
+
+            app.MapControllers();
 
             app.UseHttpsRedirection();
 
